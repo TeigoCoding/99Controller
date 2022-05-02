@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_runs"
+    app:startDestination="@id/item_runs_list">
+
+    <fragment
+        android:id="@+id/item_runs_list"
+        android:name="com.teigocoding.a99drivercontroller.Fragments.RunsListFragment"
+        android:label="fragment_runs_list"
+        tools:layout="@layout/fragment_runs_list" />
+    <fragment
+        android:id="@+id/item_runs_runs"
+        android:name="com.teigocoding.a99drivercontroller.Fragments.RunsRunsFragment"
+        android:label="fragment_runs_runs"
+        tools:layout="@layout/fragment_runs_runs" />
+    <fragment
+        android:id="@+id/item_runs_bonus"
+        android:name="com.teigocoding.a99drivercontroller.Fragments.RunsBonusFragment"
+        android:label="fragment_runs_bonus"
+        tools:layout="@layout/fragment_runs_bonus" />
+</navigation>

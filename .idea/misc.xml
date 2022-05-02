@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Tiago/Desktop/Apps/GitHub/99Controller/app/src/main/res/layout/activity_menu_runs.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Tiago/Desktop/Apps/GitHub/99Controller/app/src/main/res/layout/fragment_runs_bonus.xml" value="0.28125" />
+        <entry key="..\:/Users/Tiago/Desktop/Apps/GitHub/99Controller/app/src/main/res/layout/fragment_runs_list.xml" value="0.28125" />
+        <entry key="..\:/Users/Tiago/Desktop/Apps/GitHub/99Controller/app/src/main/res/layout/fragment_runs_runs.xml" value="0.2671875" />
+        <entry key="..\:/Users/Tiago/Desktop/Apps/GitHub/99Controller/app/src/main/res/menu/menu_runs_navigation.xml" value="0.28125" />
         <entry key="..\:/Users/Tiago/Desktop/Apps/GitHub/99DriverController/app/src/main/res/drawable/background_splashscreen.xml" value="0.2275" />
         <entry key="..\:/Users/Tiago/Desktop/Apps/GitHub/99DriverController/app/src/main/res/layout/activity_main.xml" value="0.20677083333333332" />
         <entry key="..\:/Users/Tiago/Desktop/Apps/GitHub/99DriverController/app/src/main/res/layout/main_nav_drawer.xml" value="0.22083333333333333" />
