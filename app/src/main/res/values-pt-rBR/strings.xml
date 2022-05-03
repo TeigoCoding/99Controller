@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">99DriverController</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    ----- main strings -----
+    <string name="main_header">Teste</string>
+    <string name="main_titulo">Título Teste</string>
+
+    ----- navigation strings -----
+    <string name="nav_header">99 Motorista</string>
+    <string name="nav_runs">Corridas</string>
+    <string name="nav_earns">Ganhos</string>
+    <string name="nav_aboutus">Sobre</string>
+    <string name="nav_leave">Sair</string>
+
+    ----- runs strings -----
+    <string name="menu_list">Lista</string>
+    <string name="menu_runs">Corridas</string>
+    <string name="menu_bonus">Bonus</string>
+    <string name="logo_do_99">Logo do 99</string>
+    <string name="titulo99mult">99 Multiplica</string>
+    <string name="label_porcentagem">% de ganho</string>
+    <string name="label_quantbonus">Quantidade de corridas</string>
+    <string name="button_addrun">Adicionar Corrida</string>
+
+</resources>

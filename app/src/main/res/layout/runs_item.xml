@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="@dimen/margin_default">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_99"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_default"
+            android:contentDescription="@string/logo_do_99"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic__9_app" />
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            app:layout_constraintBottom_toBottomOf="@+id/img_99"
+            app:layout_constraintLeft_toRightOf="@+id/img_99"
+            app:layout_constraintTop_toTopOf="@+id/img_99"
+            tools:text="ID" />
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_id"
+            app:layout_constraintLeft_toRightOf="@+id/txt_id"
+            app:layout_constraintTop_toTopOf="@+id/txt_id"
+            tools:text="Data" />
+
+        <TextView
+            android:id="@+id/txt_travels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_date"
+            app:layout_constraintLeft_toRightOf="@+id/txt_date"
+            app:layout_constraintTop_toTopOf="@+id/txt_date"
+            tools:text="Viagens" />
+
+        <TextView
+            android:id="@+id/txt_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_travels"
+            app:layout_constraintLeft_toRightOf="@+id/txt_travels"
+            app:layout_constraintTop_toTopOf="@+id/txt_travels"
+            tools:text="Valor Total" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

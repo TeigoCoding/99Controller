@@ -5,18 +5,18 @@
         android:id="@+id/item_runs_list"
         android:enabled="true"
         android:icon="@drawable/ic_earn"
-        android:title="List"/>
+        android:title="@string/menu_list"/>
 
     <item
         android:id="@+id/item_runs_runs"
         android:enabled="true"
         android:icon="@drawable/ic_earn"
-        android:title="Runs"/>
+        android:title="@string/menu_runs"/>
 
     <item
         android:id="@+id/item_runs_bonus"
         android:enabled="true"
         android:icon="@drawable/ic_earn"
-        android:title="Bonus"/>
+        android:title="@string/menu_bonus"/>
 
 </menu>

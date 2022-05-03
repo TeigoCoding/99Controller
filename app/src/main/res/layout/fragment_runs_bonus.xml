@@ -5,11 +5,61 @@
     android:layout_height="match_parent"
     tools:context=".Fragments.RunsBonusFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Bonus Fragment" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/textSizeDefault"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo99mult"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/lb_quantbonus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/label_quantbonus"
+            android:textSize="@dimen/textSizeDefault"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/label_porcentagem"
+            android:textSize="@dimen/textSizeDefault"/>
+        <Button
+            android:id="@+id/bt_addruns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/button_addrun"/>
+        <TextView
+            android:id="@+id/lb_quantidadeinseridabonus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            tools:text="Quantidade de viagens inseridas"
+            android:textSize="@dimen/textSizeDefault"/>
+        <TextView
+            android:id="@+id/lb_valortotaldasviagensbonus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Valor total das viagens"
+            android:textSize="@dimen/textSizeDefault"/>
+        <TextView
+            android:id="@+id/valortotaldebonus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Valor total dos bonus da promoção"
+            android:textSize="@dimen/textSizeDefault"/>
+
+    </LinearLayout>
 
 </FrameLayout>

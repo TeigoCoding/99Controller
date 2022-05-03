@@ -1,5 +1,27 @@
 <resources>
     <string name="app_name">99DriverController</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    ----- main strings -----
+    <string name="main_header">Teste</string>
+    <string name="main_titulo">Title Teste</string>
+
+    ----- navigation strings -----
+    <string name="nav_header">99 Driver</string>
+    <string name="nav_runs">Runs</string>
+    <string name="nav_earns">Earns</string>
+    <string name="nav_aboutus">About Us</string>
+    <string name="nav_leave">Exit</string>
+
+    ----- runs strings -----
+    <string name="menu_list">List</string>
+    <string name="menu_runs">Runs</string>
+    <string name="menu_bonus">Bonus</string>
+    <string name="logo_do_99">Logo do 99</string>
+    <string name="titulo99mult">99 Multiplies</string>
+    <string name="label_porcentagem">% earned</string>
+    <string name="label_quantbonus">Number of runs</string>
+    <string name="button_addrun">Add Run</string>
+
+
 </resources>

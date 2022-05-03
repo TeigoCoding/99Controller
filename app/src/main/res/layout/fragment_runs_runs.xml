@@ -5,12 +5,106 @@
     android:layout_height="match_parent"
     tools:context=".Fragments.RunsRunsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Runs Fragment" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+
+        <TextView
+            android:id="@+id/lb_titulo99mult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/titulo99mult"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lb_quantbonus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lb_titulo99mult"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/label_quantbonus"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <Spinner
+            android:id="@+id/spin_quantbonus"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lb_titulo99mult"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@+id/lb_quantbonus"
+            android:focusable="true"
+            android:textSize="@dimen/textSizeDefault" />
+
+
+
+        <TextView
+            android:id="@+id/lb_porcentagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lb_quantbonus"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/label_porcentagem"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <EditText
+            android:id="@+id/txt_porcentagem"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lb_quantbonus"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_toEndOf="@+id/lb_porcentagem"
+            android:ems="10"
+            android:focusable="true"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/bt_addruns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_checkfalse"
+            android:layout_below="@+id/lb_porcentagem"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:id="@+id/lb_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_addruns"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/label_porcentagem"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <EditText
+            android:id="@+id/txt_total"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_addruns"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_toEndOf="@+id/lb_porcentagem"
+            android:ems="10"
+            android:focusable="true"
+            android:inputType="numberDecimal" />
+
+
+    </RelativeLayout>
 
 
 </FrameLayout>
