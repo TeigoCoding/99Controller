@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.teigocoding.a99drivercontroller.R;
-import com.teigocoding.a99drivercontroller.databinding.RunsItemBinding;
 
 
 public class RunsListFragment extends Fragment {
