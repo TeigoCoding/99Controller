@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.RunsBonusFragment">
+    tools:context=".Fragments.RunsBonusFragment"
+    android:background="#f2ffcc">
 
     <LinearLayout
 
@@ -22,19 +23,44 @@
             android:textSize="30sp"
             android:textStyle="bold" />
 
-        <Spinner
-            android:id="@+id/spin_quantbonus"
-            android:layout_width="70dp"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:textSize="@dimen/textSizeDefault"
-            />
+            >
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/lb_quanttotalb"
+                android:layout_width="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintLeft_toLeftOf="@+id/spin_quantbonusb"
+                android:layout_height="wrap_content"
+                android:text="@string/quantcorridasbonus"
+                android:textSize="@dimen/textSizeDefault"
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:id="@+id/spin_quantbonusb"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="@dimen/margin_default"
+                app:layout_constraintLeft_toRightOf="@+id/lb_quanttotalb"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="@dimen/textSizeDefault"
+                android:textAlignment="center"
+                android:entries="@array/array_quantidade_bonus"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <EditText
+            android:paddingTop="@dimen/margin_default"
+            android:id="@+id/txt_bonusporcentagem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/label_porcentagem"
-            android:textSize="@dimen/textSizeDefault"/>
+            android:textSize="@dimen/textSizeDefault"
+            android:inputType="numberDecimal"/>
 
 
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton

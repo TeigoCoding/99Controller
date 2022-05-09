@@ -38,10 +38,23 @@
     <string name="menu_bonus">Bonus</string>
     <string name="logo_do_99">Logo do 99</string>
     <string name="titulo99mult">99 Multiplies</string>
-    <string name="label_porcentagem">% earned</string>
+    <string name="label_porcentagem">% Bonus da Promoção Ex: 15</string>
     <string name="label_quantbonus">Number of runs</string>
-    <string name="button_addrun">ADICIONAR CORRIDAS</string>
-    <string name="buttonplus">Adicionar corridas</string>
+    <string name="button_addrun">Add runs</string>
+    <string name="buttonplus">Add runs</string>
+    <string name="titlerunslist">Runs List</string>
+    <string name="idlist">*</string>
+    <string name="listdate">Data</string>
+    <string name="listbonus">Bonus</string>
+    <string name="listvalortotal">Total price</string>
+    <string name="msgquantcorridas">No runs have been made so far.</string>
+    <string name="addruntitle">Add new run</string>
+    <string name="quantcorridasbonus">Runs needed:</string>
+    <string name="valorcorridaadd">Run price Ex: 7.50</string>
+    <string name="datacorridaadd">Run date Ex: 01/12/2020</string>
+    <string name="addruns">Add Runs</string>
+    <string name="listtotal">Total de lucro</string>
+    <string name="addrun">Add Run</string>
 
 
 </resources>

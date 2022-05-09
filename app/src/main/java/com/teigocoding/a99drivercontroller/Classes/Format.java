@@ -12,6 +12,7 @@ public class Format {
     public static final String FORMAT_DATE = "##/##/####";
     public static final String FORMAT_DATE2 = "##/##";
     public static final String FORMAT_HOUR = "##:##";
+    public static final String FORMAT_DECIMAL = "##.##";
 
     public static TextWatcher mask (final EditText ediTxt, final String mask){
         return new TextWatcher() {
