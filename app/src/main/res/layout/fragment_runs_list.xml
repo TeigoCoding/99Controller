@@ -38,7 +38,6 @@
                 android:paddingEnd="@dimen/margin_default"
                 android:layout_centerHorizontal="true"
                 android:paddingTop="40dp"
-                android:hint="@string/listtotal"
                 tools:text="Total: "
                 android:textSize="@dimen/textSizeDefault"
                 android:textStyle="bold"
@@ -89,15 +88,15 @@
                 android:textStyle="bold"/>
 
             <TextView
-                android:id="@+id/lb_valortotal"
+                android:id="@+id/lb_tipo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/txt_listruns"
                 android:layout_marginTop="@dimen/margin_default"
-                android:layout_marginStart="@dimen/margin_default"
+                android:layout_marginStart="40dp"
                 android:layout_toEndOf="@+id/lb_quant"
                 android:gravity="center_horizontal"
-                android:text="@string/listbonus"
+                android:text="@string/listtipo"
                 android:textSize="12sp"
                 android:textStyle="bold"
                 android:textAlignment="center"
@@ -129,6 +128,16 @@
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txt_empty2"
+                    android:text="No data Found"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
 
             </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 

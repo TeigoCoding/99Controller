@@ -63,22 +63,17 @@
             android:inputType="numberDecimal"/>
 
 
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-            android:id="@+id/bt_addruns"
-            style="@style/AppTheme"
+        <Button
+            android:id="@+id/bt_selectruns"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:clickable="true"
-            android:contentDescription="@string/button_addrun"
-            android:focusable="true"
-            android:text="@string/button_addrun"
-            android:textAlignment="gravity"
-            android:textSize="@dimen/textSizeDefault"
-            app:icon="@drawable/ic_plus_test"
-            app:iconSize="16dp"
-            android:padding="4dp"/>
+            android:paddingStart="@dimen/margin_default"
+            android:paddingEnd="@dimen/margin_default"
+            android:text="@string/selectruns"
+            android:textColor="@color/black"
+            android:background="@drawable/btaddrun"/>
 
         <TextView
             android:id="@+id/lb_quantidadeinseridabonus"

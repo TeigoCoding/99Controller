@@ -24,7 +24,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
     private static final String RUNS_ID = "runs_id";
     private static final String RUNS_DATA = "runs_data";
     private static final String RUNS_VALOR = "runs_valor";
-    private static final String RUNS_BONUS = "runs_bonus";
+    private static final String RUNS_TIPO = "runs_tipo";
 
 
     public MyDatabaseHelper (@Nullable Context context){
@@ -40,7 +40,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
                             " (" + RUNS_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                             RUNS_DATA + " TEXT, "+
                             RUNS_VALOR + " TEXT, "+
-                            RUNS_BONUS + " TEXT);";
+                            RUNS_TIPO + " TEXT);";
             db.execSQL(query);
         }
 
@@ -53,14 +53,14 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
 
     }
 
-    public boolean addOne (RunsModel artModel){
+    public boolean addOne (RunsModel runsModel){
 
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues cv = new ContentValues();
 
-        cv.put(RUNS_DATA, artModel.get_data());
-        cv.put(RUNS_VALOR, artModel.get_valor());
-        cv.put(RUNS_BONUS, artModel.get_bonus());
+        cv.put(RUNS_DATA, runsModel.get_data());
+        cv.put(RUNS_VALOR, runsModel.get_valor());
+        cv.put(RUNS_TIPO, runsModel.get_tipo());
 
 
         long insert = db.insert(RUNS_TABLENAME, null, cv);

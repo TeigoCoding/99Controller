@@ -42,11 +42,27 @@
             android:textSize="@dimen/textSizeDefault"
             android:inputType="numberDecimal"/>
 
+        <Spinner
+            android:id="@+id/spinner_tipo_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSizeDefault"
+            android:textAlignment="center"
+            android:entries="@array/array_tipo_add"
+            android:paddingTop="@dimen/margin_default"
+            android:paddingBottom="@dimen/margin_default"
+            />
+
         <Button
             android:id="@+id/bt_addruns"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/addrun" />
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:paddingStart="@dimen/margin_default"
+            android:paddingEnd="@dimen/margin_default"
+            android:text="@string/addrun"
+            android:textColor="@color/black"
+            android:background="@drawable/btaddrun"/>
 
 
     </LinearLayout>

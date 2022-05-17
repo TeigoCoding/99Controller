@@ -33,6 +33,12 @@
         <item>29</item>            <item>30</item>
     </string-array>
 
+    <string-array name="array_tipo_add">
+        <item>Dinheiro</item>
+        <item>App</item>
+        <item>PIX</item>
+    </string-array>
+
     <string name="menu_list">List</string>
     <string name="menu_runs">Runs</string>
     <string name="menu_bonus">Bonus</string>
@@ -45,16 +51,17 @@
     <string name="titlerunslist">Runs List</string>
     <string name="idlist">*</string>
     <string name="listdate">Data</string>
-    <string name="listbonus">Bonus</string>
+    <string name="listtipo">Pagamento</string>
     <string name="listvalortotal">Total price</string>
     <string name="msgquantcorridas">No runs have been made so far.</string>
     <string name="addruntitle">Add new run</string>
     <string name="quantcorridasbonus">Runs needed:</string>
     <string name="valorcorridaadd">Run price Ex: 7.50</string>
     <string name="datacorridaadd">Run date Ex: 01/12/2020</string>
-    <string name="addruns">Add Runs</string>
+    <string name="selectruns">Select Runs</string>
     <string name="listtotal">Total de lucro</string>
     <string name="addrun">Add Run</string>
+    <string name="select">Selecionar corrida</string>
 
 
 </resources>

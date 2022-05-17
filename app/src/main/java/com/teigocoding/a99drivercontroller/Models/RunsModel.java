@@ -4,13 +4,16 @@ public class RunsModel {
     private int _ID;
     private String _data;
     private double _valor;
-    private String _bonus;
+    private String _tipo;
+    //boolean unread;
+    //boolean selected;
 
-    public RunsModel(int _ID, String _data, double _valor, String _bonus) {
+
+    public RunsModel(int _ID, String _data, double _valor, String _tipo) {
         this._ID = _ID;
         this._data = _data;
         this._valor = _valor;
-        this._bonus = _bonus;
+        this._tipo = _tipo;
     }
 
     @Override
@@ -19,7 +22,7 @@ public class RunsModel {
                 "_ID=" + _ID +
                 ", _data='" + _data + '\'' +
                 ", _valor=" + _valor +
-                ", _bonus='" + _bonus + '\'' +
+                ", _tipo='" + _tipo + '\'' +
                 '}';
     }
 
@@ -47,12 +50,12 @@ public class RunsModel {
         this._valor = _valor;
     }
 
-    public String get_bonus() {
-        return _bonus;
+    public String get_tipo() {
+        return _tipo;
     }
 
-    public void set_bonus(String _bonus) {
-        this._bonus = _bonus;
+    public void set_tipo(String _tipo) {
+        this._tipo = _tipo;
     }
 }
 

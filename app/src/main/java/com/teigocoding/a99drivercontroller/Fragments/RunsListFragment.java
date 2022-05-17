@@ -30,7 +30,7 @@ public class RunsListFragment extends Fragment {
 
 
     RecyclerView recyclerView;
-    ArrayList<String> runsid, runsdate, runsvalue, runsbonus;
+    ArrayList<String> runsid, runsdate, runsvalue, runstipo;
     RunsAdapter runsAdapter;
     SwipeRefreshLayout swipeRefreshLayout;
     TextView txt_total;
@@ -49,13 +49,13 @@ public class RunsListFragment extends Fragment {
         runsid = new ArrayList<>();
         runsdate = new ArrayList<>();
         runsvalue = new ArrayList<>();
-        runsbonus = new ArrayList<>();
+        runstipo = new ArrayList<>();
         txt_total = v.findViewById(R.id.txt_total);
         swipeRefreshLayout = v.findViewById(R.id.swipe_runs);
 
         GetData();
 
-        runsAdapter = new RunsAdapter(getContext(), runsid, runsdate, runsvalue, runsbonus);
+        runsAdapter = new RunsAdapter(getContext(), runsid, runsdate, runsvalue, runstipo);
         recyclerView.setAdapter(runsAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
@@ -98,7 +98,7 @@ public class RunsListFragment extends Fragment {
                 runsid.add(cursor.getString(0));
                 runsdate.add(cursor.getString(1));
                 runsvalue.add(cursor.getString(2));
-                runsbonus.add(cursor.getString(3));
+                runstipo.add(cursor.getString(3));
             }
         }
     }
